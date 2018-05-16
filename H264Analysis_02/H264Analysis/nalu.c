@@ -81,9 +81,6 @@ void read_nal_unit(nalu_t *nalu)
     // 1.去除nalu中的emulation_prevention_three_byte：0x03
     nalu->len = nal_to_rbsp(nalu);
     
-    //    printf("\nrbsp_size: %d\n", nalu->len);
-    //    print_nalu_buf(nalu);
-    
     // 2.初始化逐比特读取工具句柄
     bs_t *bs = bs_new(nalu->buf, nalu->len);
     
