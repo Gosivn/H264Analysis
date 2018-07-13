@@ -1,0 +1,101 @@
+
+
+Annex B NALU len 9, forbidden_bit 0, nal_reference_idc 3, nal_unit_type 7
+
+@ SPS: profile_idc                                        ( 66)
+@ SPS: constraint_set0_flag                               (  0)
+@ SPS: constraint_set1_flag                               (  0)
+@ SPS: constraint_set2_flag                               (  0)
+@ SPS: constraint_set3_flag                               (  0)
+@ SPS: constraint_set4_flag                               (  0)
+@ SPS: constraint_set5_flag                               (  0)
+@ SPS: reserved_zero_2bits                                (  0)
+@ SPS: level_idc                                          ( 30)
+@ SPS: seq_parameter_set_id                               (  0)
+@ SPS: log2_max_frame_num_minus4                          (  0)
+@ SPS: pic_order_cnt_type                                 (  0)
+@ SPS: log2_max_pic_order_cnt_lsb_minus4                  (  0)
+@ SPS: max_num_ref_frames                                 ( 10)
+@ SPS: gaps_in_frame_num_value_allowed_flag               (  0)
+@ SPS: pic_width_in_mbs_minus1                            ( 21)
+@ SPS: pic_height_in_map_units_minus1                     ( 17)
+@ SPS: frame_mbs_only_flag                                (  1)
+@ SPS: direct_8x8_inference_flag                          (  0)
+@ SPS: frame_cropping_flag                                (  0)
+@ SPS: vui_parameters_present_flag                        (  0)
+
+
+Annex B NALU len 5, forbidden_bit 0, nal_reference_idc 3, nal_unit_type 8
+
+@ PPS: pic_parameter_set_id                               (  0)
+@ PPS: seq_parameter_set_id                               (  0)
+@ PPS: entropy_coding_mode_flag                           (  0)
+@ PPS: bottom_field_pic_order_in_frame_present_flag       (  0)
+@ PPS: num_slice_groups_minus1                            (  0)
+@ PPS: num_ref_idx_l0_default_active_minus1               (  9)
+@ PPS: num_ref_idx_l1_default_active_minus1               (  9)
+@ PPS: weighted_pred_flag                                 (  0)
+@ PPS: weighted_bipred_idc                                (  0)
+@ PPS: pic_init_qp_minus26                                (  0)
+@ PPS: pic_init_qs_minus26                                (  0)
+@ PPS: chroma_qp_index_offset                             (  0)
+@ PPS: deblocking_filter_control_present_flag             (  0)
+@ PPS: constrained_intra_pred_flag                        (  0)
+@ PPS: redundant_pic_cnt_present_flag                     (  0)
+
+
+Annex B NALU len 11074, forbidden_bit 0, nal_reference_idc 3, nal_unit_type 5
+
+@ SH: first_mb_in_slice                                   (  0)
+@ SH: slice_type                                          (  7)
+@ SH: pic_parameter_set_id                                (  0)
+@ SH: frame_num                                           (  0)
+@ SH: idr_pic_id                                          (  0)
+@ SH: pic_order_cnt_lsb                                   (  0)
+@ SH: no_output_of_prior_pics_flag                        (  0)
+@ SH: long_term_reference_flag                            (  0)
+@ SH: slice_qp_delta                                      (  2)
+
+
+Annex B NALU len 11057, forbidden_bit 0, nal_reference_idc 2, nal_unit_type 1
+
+@ SH: first_mb_in_slice                                   (  0)
+@ SH: slice_type                                          (  7)
+@ SH: pic_parameter_set_id                                (  0)
+@ SH: frame_num                                           (  1)
+@ SH: pic_order_cnt_lsb                                   (  2)
+@ SH: adaptive_ref_pic_marking_mode_flag                  (  0)
+@ SH: slice_qp_delta                                      (  2)
+
+
+Annex B NALU len 11112, forbidden_bit 0, nal_reference_idc 2, nal_unit_type 1
+
+@ SH: first_mb_in_slice                                   (  0)
+@ SH: slice_type                                          (  7)
+@ SH: pic_parameter_set_id                                (  0)
+@ SH: frame_num                                           (  2)
+@ SH: pic_order_cnt_lsb                                   (  4)
+@ SH: adaptive_ref_pic_marking_mode_flag                  (  0)
+@ SH: slice_qp_delta                                      (  2)
+
+
+Annex B NALU len 11074, forbidden_bit 0, nal_reference_idc 2, nal_unit_type 1
+
+@ SH: first_mb_in_slice                                   (  0)
+@ SH: slice_type                                          (  7)
+@ SH: pic_parameter_set_id                                (  0)
+@ SH: frame_num                                           (  3)
+@ SH: pic_order_cnt_lsb                                   (  6)
+@ SH: adaptive_ref_pic_marking_mode_flag                  (  0)
+@ SH: slice_qp_delta                                      (  2)
+
+
+Annex B NALU len 11048, forbidden_bit 0, nal_reference_idc 2, nal_unit_type 1
+
+@ SH: first_mb_in_slice                                   (  0)
+@ SH: slice_type                                          (  7)
+@ SH: pic_parameter_set_id                                (  0)
+@ SH: frame_num                                           (  4)
+@ SH: pic_order_cnt_lsb                                   (  8)
+@ SH: adaptive_ref_pic_marking_mode_flag                  (  0)
+@ SH: slice_qp_delta                                      (  2)
